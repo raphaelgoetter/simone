@@ -2,7 +2,7 @@ body {
   display: grid;
   place-content: center;
 }
-#app {
+:where(#app) {
   display: grid;
   place-content: center;
   aspect-ratio: 1;
