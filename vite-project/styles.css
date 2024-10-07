@@ -1,0 +1,12 @@
+body {
+  display: grid;
+  place-content: center;
+}
+#app {
+  display: grid;
+  place-content: center;
+  aspect-ratio: 1;
+  padding: var(--spacing-16);
+  background: var(--colors-hotpink);
+  font-size: var(--font-size-40);
+}
